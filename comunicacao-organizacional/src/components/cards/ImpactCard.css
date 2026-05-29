@@ -1,0 +1,78 @@
+.impact-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #898a84;
+    border-radius: 20px;
+    background-color: #06192a;
+    width: calc(100% - 100px);
+    height: 100px;
+}
+
+.impact-card::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 60px;
+    top: 0;
+    background-color: #06192a;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.impact-card::before {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 60px;
+    bottom: 0;
+    /* background-color: #06192a; */
+    background: linear-gradient(0deg, #06192a, #06192a, #06192a, #06192a, transparent);
+    z-index: -1;
+}
+
+.impact-title {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.impact-title::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 40px;
+    background-color: #06192a;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translate(-10%, 0px);
+}
+
+.left-arrow {
+    position: absolute;
+    top: 8px;
+    left: -45px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #216598;
+    z-index: 2;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 8px;
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid #216598;
+    z-index: 2;
+}

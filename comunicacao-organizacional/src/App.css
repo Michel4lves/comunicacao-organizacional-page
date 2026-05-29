@@ -1,0 +1,8 @@
+.App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
