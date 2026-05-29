@@ -1,0 +1,30 @@
+.communication-type-card {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #df1d1d;
+    border-radius: 20px;
+}
+
+.communication-type-card-title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.communication-type-card-subtitle {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.communication-type-card-topics {
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}

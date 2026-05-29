@@ -19,6 +19,7 @@
 .hero-title {
     font-size: 4.5rem;
     line-height: 5rem;
+    margin: 0;
 }
 
 .hero-subtitle {
@@ -29,6 +30,7 @@
 
 .hero-text p {
     font-size: 1.2rem;
+    margin-top: 3px;
 }
 
 .hero-image {
