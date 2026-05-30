@@ -1,0 +1,117 @@
+.challenges-card {
+    position: relative;
+    width: 222px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 15px;
+    overflow: hidden;
+}    
+
+.challenges-card-icon {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.challenges-card-icon::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* background-color: #125084; */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.challenges-card-icon svg {
+    position: relative;
+    font-size: 4.5rem;
+    color: var(--text-color);
+    z-index: 2;
+}
+
+
+.challenges-card-title {
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+}    
+
+.challenges-card-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #292829;
+}
+
+
+/* COLORS: */
+.challenges-card.blue {
+    color: #125084;
+}
+
+.challenges-card.blue .challenges-card-icon::before {
+    background-color: #125084;
+}
+
+.challenges-card.green {
+    color: #1B5E23;
+}
+
+.challenges-card.green .challenges-card-icon::before {
+    background-color: #1B5E23;
+}
+
+.challenges-card.purple {
+    color: #5E2A88;
+}
+
+.challenges-card.purple .challenges-card-icon::before {
+    background-color: #5E2A88;
+}
+
+.challenges-card.orange {
+    color: #EE7F22;
+}
+
+.challenges-card.orange .challenges-card-icon::before {
+    background-color: #EE7F22;
+}
+
+.challenges-card.magenta {
+    color: #E7546E;
+}
+
+.challenges-card.magenta .challenges-card-icon::before {
+    background-color: #E7546E;
+}
+
+
+
+
+
+
+
+
+
+
+
+.communication-type-card.orange {
+    border: 2px solid #EE7F22;
+    background-color: #FEF5E7;
+    color: #E35E25;
+}
+
+.communication-type-card.orange .communication-type-card-image {
+    border-bottom: 1px solid #EE7F22;
+}
+
+.communication-type-card.orange .communication-type-card-footer {
+    border-top: 1px solid #EE7F22;
+    background-color: #FDEFDE;
+}

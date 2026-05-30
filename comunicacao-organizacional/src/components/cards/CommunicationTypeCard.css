@@ -8,7 +8,6 @@
     justify-content: flex-start;
     gap: 15px;
     padding: 15px 10px;
-    border: 1px solid #df1d1d;
     border-radius: 20px;
     overflow: hidden;
 }
