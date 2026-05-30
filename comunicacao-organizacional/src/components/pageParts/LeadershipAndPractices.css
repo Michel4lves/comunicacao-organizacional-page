@@ -1,0 +1,10 @@
+.LeadershipAndPractices {
+    width: 100%;
+    min-height: 620px;
+    padding: 0px 40px;
+    background-color: #FEFEFE;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}

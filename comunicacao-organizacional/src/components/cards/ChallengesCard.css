@@ -9,7 +9,11 @@
     gap: 20px;
     padding: 15px;
     overflow: hidden;
-}    
+}
+
+.challenges-card:nth-child(n + 2) {
+    border-left: 2px solid #d8d7d8;
+}
 
 .challenges-card-icon {
     position: relative;
