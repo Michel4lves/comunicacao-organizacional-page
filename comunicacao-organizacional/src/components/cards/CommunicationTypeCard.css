@@ -1,30 +1,116 @@
 .communication-type-card {
+    position: relative;
     width: 250px;
-    height: 500px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 15px;
-    padding: 10px;
+    padding: 15px 10px;
     border: 1px solid #df1d1d;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .communication-type-card-title {
     font-size: 1.3rem;
     text-align: center;
+    width: 80%;
 }
 
 .communication-type-card-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .communication-type-card-topics {
     font-size: 1rem;
     text-align: left;
     padding: 0 10px;
+    width: 100%;
+}
+
+.communication-type-card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 15px 10px;
+}
+
+.communication-type-card-footer-icon {
+    font-size: 2.5rem;
+}
+
+.communication-type-card-footer-text {
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+/* COLORS: */
+.communication-type-card.blue {
+    border: 2px solid #125084;
+    background-color: #eff6fc;
+    color: #0A205C;
+}
+
+.communication-type-card.blue .communication-type-card-image {
+    border-bottom: 1px solid #125084;
+}
+
+.communication-type-card.blue .communication-type-card-footer {
+    border-top: 1px solid #125084;
+    background-color: #E3EFFA;
+}
+
+.communication-type-card.green {
+    border: 2px solid #99BE53;
+    background-color: #F5F8F0;
+    color: #1B5E23;
+}
+
+.communication-type-card.green .communication-type-card-image {
+    border-bottom: 1px solid #99BE53;
+}
+
+.communication-type-card.green .communication-type-card-footer {
+    border-top: 1px solid #99BE53;
+    background-color: #ECF1E2;
+}
+
+.communication-type-card.purple {
+    border: 2px solid #8654B5;
+    background-color: #F7F4FA;
+    color: #5E2A88;
+}
+
+.communication-type-card.purple .communication-type-card-image {
+    border-bottom: 1px solid #8654B5;
+}
+
+.communication-type-card.purple .communication-type-card-footer {
+    border-top: 1px solid #8654B5;
+    background-color: #F2ECF7;
+}
+
+.communication-type-card.orange {
+    border: 2px solid #EE7F22;
+    background-color: #FEF5E7;
+    color: #E35E25;
+}
+
+.communication-type-card.orange .communication-type-card-image {
+    border-bottom: 1px solid #EE7F22;
+}
+
+.communication-type-card.orange .communication-type-card-footer {
+    border-top: 1px solid #EE7F22;
+    background-color: #FDEFDE;
 }
