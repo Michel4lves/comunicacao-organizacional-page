@@ -1,0 +1,109 @@
+.practices-card {
+    position: relative;
+    width: 550px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    background-color: #FEF5E7;
+    padding: 15px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.practices-title {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    color: #E35E25;
+    padding-top: 15px;
+}
+
+.practices-topics {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* CARD */
+.practices-topic-card {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.practices-topic-icon {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.practices-topic-icon::before {
+    content: "";
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: #125084;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.practices-topic-icon svg {
+    position: relative;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    z-index: 2;
+}
+
+.practices-topic-textbx {
+    width: 100%;
+    color: #292829;
+}
+
+.practices-topic-title {
+    font-size: 1.2rem;
+}
+
+.practices-topic-text {
+    font-size: 1.1rem;
+}
+
+/* COLORS: */
+.practices-topic-card.blue .practices-topic-icon::before {
+    background-color: #0f5fa0;
+}
+
+.practices-topic-card.green .practices-topic-icon::before {
+    background-color: #99BE53;
+}
+
+.practices-topic-card.dark-orange .practices-topic-icon::before {
+    background-color: #E35E25;
+}
+
+.practices-topic-card.purple .practices-topic-icon::before {
+    background-color: #8654B5;
+}
+
+.practices-topic-card.magenta .practices-topic-icon::before {
+    background-color: #E7546E;
+}
+
+.practices-topic-card.ocean .practices-topic-icon::before {
+    background-color: #199199;
+}
+
+.practices-topic-card.orange .practices-topic-icon::before {
+    background-color: #EE7F22;
+}

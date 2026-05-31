@@ -21,9 +21,9 @@ const LeadershipCard = () => {
                     <li><span><FcApproval /></span>Melhoram o clima e a cultura da empresa</li>
                 </ul>
             </div>
-            <div className="communication-type-card-footer">
-                <div className="communication-type-card-footer-icon"><FaQuoteLeft /></div>
-                <p className="communication-type-card-footer-text">
+            <div className="leadership-card-footer">
+                <div className="leadership-card-footer-icon"><FaQuoteLeft /></div>
+                <p className="leadership-card-footer-text">
                     "Cominicar é liderar pessoas para um propósito com clareza e empatia.
                 </p>
             </div>
