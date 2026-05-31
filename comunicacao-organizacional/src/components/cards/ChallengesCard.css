@@ -28,7 +28,6 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    /* background-color: #125084; */
     border-radius: 50%;
     z-index: 1;
 }
