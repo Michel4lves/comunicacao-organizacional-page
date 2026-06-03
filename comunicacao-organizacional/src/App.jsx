@@ -4,6 +4,7 @@ import CommunicationTypes from './components/pageParts/CommunicationTypes'
 import Challenges from './components/pageParts/Challenges'
 import LeadershipAndPractices from './components/pageParts/LeadershipAndPractices'
 import Borderless from './components/pageParts/Borderless'
+import Footer from './components/pageParts/Footer'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Challenges/>
       <LeadershipAndPractices/>
       <Borderless/>
+      <Footer/>
     </div>
   )
 }
