@@ -54,3 +54,47 @@ img {
     display: flex;
     justify-content: center;
 }
+
+
+@media (max-width: 992px) {
+    .hero {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .hero-text {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .hero-image {
+        width: 100%;
+        position: relative;
+        height: auto;
+        left: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero-card {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+}

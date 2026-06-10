@@ -105,3 +105,57 @@
 .impact-itens:nth-child(6) svg {
     color: #f3bb15;
 }
+
+
+@media (max-width: 992px) {
+    .impact-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .impact-card::before {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .impact-card {
+        align-items: start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .impact-title {
+        font-size: 1.1rem;
+    }
+
+    .impact-itens {
+        font-size: 1rem;
+    }
+
+    .impact-itens svg {
+        font-size: 2rem;
+    }
+
+    .impact-title::after {
+        top: -10px;
+        border-radius: 10px;
+    }
+
+    .left-arrow {
+        display: none;
+    }
+    
+    .right-arrow {
+        display: none;
+    }
+
+}

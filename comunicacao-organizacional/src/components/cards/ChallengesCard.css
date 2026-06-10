@@ -95,26 +95,8 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-.communication-type-card.orange {
-    border: 2px solid #EE7F22;
-    background-color: #FEF5E7;
-    color: #E35E25;
-}
-
-.communication-type-card.orange .communication-type-card-image {
-    border-bottom: 1px solid #EE7F22;
-}
-
-.communication-type-card.orange .communication-type-card-footer {
-    border-top: 1px solid #EE7F22;
-    background-color: #FDEFDE;
+@media (max-width: 992px) {
+    .challenges-card:nth-child(n + 2) {
+        border-left: none;
+    }
 }

@@ -6,6 +6,7 @@
     background-color: #E6F2FA;
     width: 100%;
     height: 100px;
+    flex-wrap: wrap;
 }
 
 .footer-itens {
@@ -45,4 +46,25 @@
     
 .footer-itens:nth-child(5) svg {
     color: #f3bb15;
+}
+
+
+@media (max-width: 992px)  {
+    .footer-card {
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .footer-itens:nth-child(n + 2) {
+        border-left: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-itens svg {
+        font-size: 2.5rem;
+    }
 }

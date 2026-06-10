@@ -25,3 +25,21 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+
+@media (max-width: 1200px) {
+    .communication-types-title {
+        text-align: center;
+    }
+
+    .box-types-container {
+        justify-content: center;
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .communication-types-title {
+        margin-top: 20px;
+    }
+}

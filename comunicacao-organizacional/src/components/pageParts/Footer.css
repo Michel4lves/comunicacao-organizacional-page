@@ -13,3 +13,16 @@
     width: 250px;
     text-align: center;
 }
+
+
+@media (max-width: 992px)  {
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-title {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

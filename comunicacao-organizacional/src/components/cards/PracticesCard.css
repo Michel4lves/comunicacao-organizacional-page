@@ -107,3 +107,29 @@
 .practices-topic-card.orange .practices-topic-icon::before {
     background-color: #EE7F22;
 }
+
+
+@media (max-width: 768px) {
+    .practices-card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .practices-topics {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .practices-title {
+        font-size: 1.4rem;
+        padding-bottom: 15px;
+    }
+
+    .practices-topic-card {
+        height: auto;
+    }
+}

@@ -96,3 +96,42 @@
     text-align: center;
     color: #0A205C;
 }
+
+
+@media (max-width: 1200px) {
+    .borderless {
+        gap: 30px;
+    }
+
+    .borderless-image {
+        border-right: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .borderless {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .borderless-image {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .borderless-info-title {
+        font-size: 1.4rem;
+    }
+
+    .borderless-communication-card {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .borderless-communication-card-title {
+        font-size: 1.2rem;
+    }
+}
