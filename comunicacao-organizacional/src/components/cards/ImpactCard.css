@@ -159,3 +159,30 @@
     }
 
 }
+
+
+@media (max-width: 576px) {
+    .impact-card {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .impact-title {
+        font-size: 1rem;
+    }
+
+    .impact-title::after {
+        left: 15px;
+        width: 110%;
+        height: 30px;
+    }
+
+    .impact-itens {
+        font-size: 0.9rem;
+    }
+
+    .impact-itens svg {
+        font-size: 1.5rem;
+    }
+}

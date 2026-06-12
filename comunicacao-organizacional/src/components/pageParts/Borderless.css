@@ -122,8 +122,16 @@
 
 
 @media (max-width: 576px) {
+    .borderless-info {
+        width: 100%;
+    }
+
     .borderless-info-title {
         font-size: 1.4rem;
+    }
+
+    .borderless-info-topics {
+        gap: 10px;
     }
 
     .borderless-communication-card {
@@ -133,5 +141,9 @@
 
     .borderless-communication-card-title {
         font-size: 1.2rem;
+    }
+
+    .borderless-communication-card-text {
+        font-size: 0.9rem;
     }
 }
