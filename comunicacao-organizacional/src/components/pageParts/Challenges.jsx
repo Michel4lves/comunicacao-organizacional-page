@@ -47,7 +47,7 @@ const Challenges = () => {
                     />
                 </div>
                 <div className="box-challenges-footer">
-                    <h4 className="challenges-footer-text"><span><FaStar /></span> Infomeção correta, no tempo certo e as pessoas certas transforma desafios em oportunidades.</h4>
+                    <h4 className="challenges-footer-text"><span><FaStar /></span> Informação correta, no tempo certo e as pessoas certas transforma desafios em oportunidades.</h4>
                 </div>
             </div>
         </div>

@@ -62,7 +62,7 @@ const CommunicationTypes = () => {
                     imageSrc={comunicacao_informal}
                     topics={["• Conversas espontâneas",
                             "• Redes de relacionamento",
-                            "• Troca de esperiências",
+                            "• Troca de experiências",
                             "• Agilidade na circulação de informações" ]}
                     footer_icon={<PiHandshakeFill />}
                     footer_text="Relações fortes que criam um ambiente saudável."

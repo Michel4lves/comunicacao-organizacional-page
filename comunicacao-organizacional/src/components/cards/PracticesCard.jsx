@@ -36,7 +36,7 @@ const PracticesCard = () => {
                 />
                 <PracticesTopicCard
                     icon={<FaStar />}
-                    title="Desenvolva construtivos"
+                    title="Desenvolva feedbacks construtivos"
                     text="Transforme conversas em aprendizado."
                     color="dark-orange"
                 />
