@@ -20,7 +20,7 @@ const ImpactCard = () => {
             </div>
             <div className="impact-itens">
                 <FaUserTie />
-                <p>Melhores decisãoes</p>
+                <p>Melhores decisões</p>
             </div>
             <div className="impact-itens">
                 <FaHeart />

@@ -16,7 +16,7 @@ const LeadershipCard = () => {
                     <li><span><FcApproval /></span>Mantêm canais abertos de diálogo</li>
                     <li><span><FcApproval /></span>Criam ambientes de confiança</li>
                     <li><span><FcApproval /></span>Reduzem incertezas em momentos de mudança</li>
-                    <li><span><FcApproval /></span>incentivam a participação das equipes</li>
+                    <li><span><FcApproval /></span>Incentivam a participação das equipes</li>
                     <li><span><FcApproval /></span>Fortalecem o compromisso com os objetivos</li>
                     <li><span><FcApproval /></span>Melhoram o clima e a cultura da empresa</li>
                 </ul>
@@ -24,7 +24,7 @@ const LeadershipCard = () => {
             <div className="leadership-card-footer">
                 <div className="leadership-card-footer-icon"><FaQuoteLeft /></div>
                 <p className="leadership-card-footer-text">
-                    "Cominicar é liderar pessoas para um propósito com clareza e empatia.
+                    "Comunicar é liderar pessoas para um propósito com clareza e empatia.
                 </p>
             </div>
         </div>
